@@ -1,4 +1,3 @@
-import { Quando } from "next/font/google";
 
 export const lastshop  = [
     {
