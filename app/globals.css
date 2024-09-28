@@ -2,5 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/canela-text-trial');
 
+.Camela{
+  font-family: 'Canela Text Trial', sans-serif;
+}
 

@@ -9,9 +9,9 @@ export default function Navbar() {
     <nav className='w-full h-[65px] bg-white fixed top-0 shadow-lg shadow-[#2AOE61]/50 
     flex flex-row items-center  justify-between   z-50 px-10'>
       <div className='NAVLINK  flex flex-row justify-between gap-3'>
-        <Link href="#" className='text-black'>Home</Link>
-        <Link href="#" className='text-black'>Shop</Link>
-        <Link href="#" className='text-black'>Contact</Link>
+        <Link href="/" className='text-black'>Home</Link>
+        <Link href="/shop" className='text-black'>Shop</Link>
+        <Link href="/contact" className='text-black'>Contact</Link>
       </div>
       <div className='NAVLOGO'>
             <Link href="/"><Image src='/LOGO_LFA.png' width={100} height={100} alt='logo'/></Link>
