@@ -34,7 +34,7 @@ export default function ShopCard({ name, image, height, width, price, sale, quan
                     alt={name}
                     height={height}
                     width={width}
-                    className="w-full"
+                    className="w-full max-h-full"
                 />
 
                 {/* Badge "Out of Stock" */}
