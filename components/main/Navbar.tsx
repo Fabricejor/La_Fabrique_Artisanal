@@ -17,10 +17,22 @@ export default function Navbar() {
             <Link href="/"><Image src='/LOGO_LFA.png' width={150} height={150} alt='logo'/></Link>
       </div>
       <div className='NAVICON flex flex-row justify-between gap-5'>
-        <FaSearch  className='text-black'/>
-        <FaRegUser  className='text-black'/>
-        <FaRegHeart  className='text-black'/>
-        <HiOutlineShoppingBag  className='text-black'/>
+        <FaSearch   className='text-black size-5 transition duration-500  hover:-translate-y-2'/>
+        <FaRegUser  className='text-black size-5 transition duration-500  hover:-translate-y-2'/>
+        <div className="relative">
+        <FaRegHeart className="text-black size-5 transition duration-500 hover:-translate-y-2" />
+        <span className="absolute -top-1 -right-2 bg-black text-white text-xs font-semibold rounded-full px-1">
+          0
+        </span>
+      </div>
+
+      {/* Icône de sac de shopping avec badge */}
+      <div className="relative">
+        <HiOutlineShoppingBag className="text-black size-5 transition duration-500 hover:-translate-y-2" />
+        <span className="absolute -top-1 -right-2 bg-black text-white text-xs font-semibold rounded-full px-1">
+          0
+        </span>
+      </div>
       </div>
     </nav>
   )
