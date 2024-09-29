@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React,{useState} from 'react'
 import { FaSearch ,FaRegUser , FaRegHeart } from "react-icons/fa";
 import { CiSearch ,CiUser ,CiHeart} from "react-icons/ci";
 import { HiOutlineShoppingBag } from "react-icons/hi";
@@ -6,6 +7,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Navbar() {
+  const [navOpen, setNavOpen] = useState(false); // State to toggle menu visibility
+
   return (
     <nav className='w-full h-[65px] bg-white fixed top-0 shadow-lg shadow-[#2AOE61]/50 
     flex flex-row items-center  justify-between   z-50 px-10 py-10'>

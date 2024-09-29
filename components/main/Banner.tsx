@@ -4,9 +4,10 @@ import Image from "next/image";
 
 export default function Banner() {
     return (
-        <header className="w-full h-full mt-14 flex flex-row items-center gap-10 justify-between px-10">
-            <div className="FISRTTEXT flex flex-col basis-2/6">
-                <h1 className="text-black text-3xl font-normal capitalize leading-7">
+        <header className="w-full h-full mt-14 flex flex-row items-center gap-10 justify-between px-10
+        max-sm:flex-col-reverse max-sm:gap-y-4 max-sm:px-2">
+            <div className="FISRTTEXT flex flex-col basis-2/6 max-sm:basis-0 max-sm:w-full">
+                <h1 className="text-black text-3xl font-normal capitalize leading-7 max-sm:w-full max-sm:bg-red-500">
                     LA Fabrique Artisanal Présentation
                 </h1>
                 <h3 className="text-black text-1xl text-justify font-light">
