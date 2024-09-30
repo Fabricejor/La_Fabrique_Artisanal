@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className='bg-black w-full h-full flex flex-row justify-between p-4 items-center max-sm:flex-col-reverse'>
-            <div className='COPYRIGHT text-white Camela font-thin w-full'>COPYRIGHT &copy; ALL RIgh Reserved </div>
+        <footer className='bg-black w-full h-full flex flex-row justify-between p-4 items-center max-sm:flex-col-reverse max-sm:items-center max-sm:justify-center max-sm:gap-y-4'>
+            <div className='COPYRIGHT text-white Camela font-thin w-full max-sm:text-center '>COPYRIGHT &copy; ALL RIgh Reserved </div>
             <div className='LASTAG w-full'>
-                <h1 className='text-white'>La Fabrique Artisanal</h1>
+                <h1 className='text-white text-center'>La Fabrique Artisanal</h1>
             </div>
             <div className='LOGOICON flex flex-row justify-between gap-4'>
                 <Link 
