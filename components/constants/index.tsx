@@ -2,7 +2,7 @@
 export const lastshop  = [
     {
         name:'sac rose',
-        image:'/sacrose.jpeg',
+        image:'/sac rouge plus bande.jpeg',
         height :200,
         width:200,
         price: 17000,
@@ -20,7 +20,7 @@ export const lastshop  = [
     },
     {
         name:'sac noir',
-        image:'/sacrose.jpeg',
+        image:'/sac beige.jpeg',
         height :200,
         width:200,
         price: 17000,
@@ -58,8 +58,8 @@ export const lastshop  = [
     {
         name:'sac rougenoir',
         image:'/sacrougenoir.jpeg',
-        height :200,
-        width:200,
+        height :300,
+        width:300,
         price: 17000,
         sale: 79,
         quantity:'available',
@@ -75,8 +75,16 @@ export const lastshop  = [
     },
 
     {
-        name:'sac noir',
-        image:'/sacbleufleur.jpeg',
+        name:'sac rouge',
+        image:'/sac rouge.jpeg',
+        height :200,
+        width:200,
+        price: 17000,
+        sale: 49,
+        quantity:'available',
+    },{
+        name:'sac Multicolor',
+        image:'/sac beige multicolor.jpeg',
         height :200,
         width:200,
         price: 17000,
@@ -84,7 +92,7 @@ export const lastshop  = [
         quantity:'available',
     },{
         name:'sac noir',
-        image:'/sacbleufleur.jpeg',
+        image:'/sac rouge noir.jpeg',
         height :200,
         width:200,
         price: 17000,
@@ -92,15 +100,7 @@ export const lastshop  = [
         quantity:'available',
     },{
         name:'sac noir',
-        image:'/sacbleufleur.jpeg',
-        height :200,
-        width:200,
-        price: 17000,
-        sale: 49,
-        quantity:'available',
-    },{
-        name:'sac noir',
-        image:'/sacbleufleur.jpeg',
+        image:'/sac rouge noir.jpeg',
         height :200,
         width:200,
         price: 17000,

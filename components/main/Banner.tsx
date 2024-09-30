@@ -6,18 +6,18 @@ export default function Banner() {
     return (
         <header className="w-full h-full mt-14 flex flex-row items-center gap-10 justify-between px-10
         max-sm:flex-col-reverse max-sm:gap-y-4 max-sm:px-2">
-            <div className="FISRTTEXT flex flex-col basis-2/6 max-sm:basis-0 max-sm:w-full">
-                <h1 className="text-black text-3xl font-normal capitalize leading-7 max-sm:w-full max-sm:bg-red-500">
-                    LA Fabrique Artisanal Présentation
+            <div className="FISRTTEXT flex flex-col basis-2/6 max-sm:basis-0 max-sm:w-full max-sm:px-2">
+                <h1 className="text-black text-3xl font-normal capitalize leading-9 max-sm:w-full max-sm:text-nowrap max-sm:text-center max-sm:mt-4">
+                    LA Fabrique Artisanal 
                 </h1>
-                <h3 className="text-black text-1xl text-justify font-light">
+                <h3 className="text-black text-1xl text-justify font-light max-sm:leading-7">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                     praesentium, mollitia enim consequuntur autem quod. Deleniti,
                     accusamus dolor! Doloremque, quisquam! Officia, dolore quaerat magni
                     accusamus maiores magnam facilis exercitationem!
                 </h3>
                 <button type="button" className="bg-black text-white p-2 mt-4 w-40  transition duration-500
-                hover:bg-white hover:text-black hover:ring-2 hover:ring-black "> Shop now!</button>
+                hover:bg-white hover:text-black hover:ring-2 hover:ring-black max-sm:self-center "> Shop now!</button>
             </div>
             <div className="BIGIMAG w-full flex flex-row   overflow-hidden bg-cover bg-no-repeat items-center justify-between basis-2/6 ">
                 <Image
@@ -28,7 +28,7 @@ export default function Banner() {
                     alt="banner image"
                 />
             </div>
-            <div className="OHTERIMAGE w-full flex flex-col gap-y-7 items-center justify-evenly  overflow-hidden basis-2/6 ">
+            <div className="OHTERIMAGE w-full flex flex-col gap-y-7 items-center justify-evenly  overflow-hidden basis-2/6 max-sm:gap-y-4 ">
                 <div className="overflow-hidden">
                     <Image
                         src="/sacrouge.jpeg"

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className='bg-black w-full h-full flex flex-row justify-between p-4 items-center'>
+        <footer className='bg-black w-full h-full flex flex-row justify-between p-4 items-center max-sm:flex-col-reverse'>
             <div className='COPYRIGHT text-white Camela font-thin w-full'>COPYRIGHT &copy; ALL RIgh Reserved </div>
             <div className='LASTAG w-full'>
                 <h1 className='text-white'>La Fabrique Artisanal</h1>

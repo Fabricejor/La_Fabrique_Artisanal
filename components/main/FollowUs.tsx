@@ -8,7 +8,7 @@ export default function FollowUs() {
 
     return (
         <div className='w-full h-full mt-4 bg-[#FEF4D8] p-10 flex flex-col items-center '>
-            <h1 className='text-black text-justify text-3xl mb-4'> FOLLOW US Everywhere</h1>
+            <h1 className='text-black text-justify text-3xl mb-4 max-sm:text-nowrap max-sm:text-2xl'> Rejoignez notre réseau</h1>
             <h3 className='text-black text-1xl font-mono font-thin'> #LaFabriqueArtisanal</h3>
             <Link href='https://www.instagram.com/la_fabriq_artisanale?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
              className=' w-[300px] mt-4 '
